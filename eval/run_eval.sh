@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration variables
-GPU_IDS=(0 1 2 3 4 5 6 7)
+GPU_IDS=(0 1)
 
 MASTER_PORT=29411
 
@@ -41,7 +41,7 @@ for task in "${TASKS[@]}"; do
       --batch_size $batch_size \
       --gen_length $gen_length \
       --output_dir "eval_results" \
-      --model_path "/data0/shared/LLaDA-8B-Instruct/"
+      --model_path "GSAI-ML/LLaDA-8B-Instruct"
   done
 done
 

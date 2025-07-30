@@ -182,7 +182,7 @@ if __name__ == "__main__":
         "--dataset", type=str, choices=["gsm8k", "math", "countdown", "sudoku", "game24"], default="gsm8k"
     )
     parser.add_argument("--suffix", type=str, default="")
-    parser.add_argument("--checkpoint_path", type=str, default="")
+    parser.add_argument("--checkpoint_path", type=str, default="/home/jyjang/d1/SFT/sft_outputs/llada-s1/checkpoint-2460/")
     parser.add_argument("--gen_length", type=int, default=128)
     parser.add_argument("--block_length", type=int, default=32)
     parser.add_argument("--diffusion_steps", type=int, default=64)

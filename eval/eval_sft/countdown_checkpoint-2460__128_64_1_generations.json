@@ -1,0 +1,1677 @@
+{
+  "generations": [
+    {
+      "question": "Numbers: [37, 1, 20]\nTarget: 18",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [37, 1, 20]\nTarget: 18<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 37, 1, and 20 exactly once to create an arithmetic expression that evaluates to 18. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to reach the target.\n</reasoning>\n<answer>\n\\boxed{37 - 20 + 1}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          37,
+          1,
+          20
+        ],
+        18
+      ]
+    },
+    {
+      "question": "Numbers: [83, 45, 36]\nTarget: 92",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [83, 45, 36]\nTarget: 92<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 83. If we subtract 45 from 83, we get 38. This is close to the target, but we need to reach 92. We can add 36 to 38 to get 92. Therefore, the expression is $(83 - 45) +36.\n</reasoning>\n\n<answer>\n\\boxed{(83 - 45) + 36}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          83,
+          45,
+          36
+        ],
+        92
+      ]
+    },
+    {
+      "question": "Numbers: [97, 98, 97]\nTarget: 99",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [97, 98, 97]\nTarget: 99<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 97, 98, and 97 to get the target number 99. We's use the operations +, -, *, and /.\n\n\n\nWe can that 97 + 98 = 99\n\nWe can use 97 - 97 + 98 = 99\n\nWe can use 97 + 98 - 97 = 99\n</reasoning>\n<answer>\n\\boxed{97 + 98}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          97,
+          98,
+          97
+        ],
+        99
+      ]
+    },
+    {
+      "question": "Numbers: [33, 21, 52]\nTarget: 2",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [33, 21, 52]\nTarget: 2<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the operations +, -, *, and / to get the target number 2 using the numbers 33, 21, and 52 exactly once.\n\nLet's try the following operations:\n-.\n52 - 33 = 19\n19 - 21 = -2\n\nThis doesn't work.\n\nTry.\n52 / 21 = 2\n\nThis works.\n</reasoning>\n\n<answer>\n\\boxed{52 / 21}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          33,
+          21,
+          52
+        ],
+        2
+      ]
+    },
+    {
+      "question": "Numbers: [88, 84, 69]\nTarget: 73",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [88, 84, 69]\nTarget: 73<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 88, 84, and 69 that evaluates to 73. We can use the operations +, -, *, and /, but we must use each number exactly once. Let's start the problem with the largest number and work to the target. We can try to use 88 and 84, but their sum is 172, which is too large. Let's try using 69.\n</reasoning>\n<answer>\n\\boxed{84 - 69}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          88,
+          84,
+          69
+        ],
+        73
+      ]
+    },
+    {
+      "question": "Numbers: [57, 58, 28]\nTarget: 27",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [57, 58, 28]\nTarget: 27<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 57, 58, and 28 to get the target number 27. Let's consider the operations operations +, -, *, and /. We can use each number exactly once.\n\nOne way forward is to use the largest number first58 - 28 = 30\n57 - 30 = 27\n\nSo, the expression is: 57 - (58 - 28)\n</reasoning>\n<answer>\n\\boxed{27}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          57,
+          58,
+          28
+        ],
+        27
+      ]
+    },
+    {
+      "question": "Numbers: [74, 37, 48]\nTarget: 24",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [74, 37, 48]\nTarget: 24<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and their order, keeping in mind that each number must be used exactly once.\n\nFirst, let's try the subtraction operation.\n74 - 37 = 37\nNow, we need to use 48 to get 24.\n37 - 48 = 24\n\nSo, the expression is: 74 - 48\n\n</reasoning>\n\n<answer>\n\\boxed{24}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          74,
+          37,
+          48
+        ],
+        24
+      ]
+    },
+    {
+      "question": "Numbers: [7, 82, 61]\nTarget: 28",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [7, 82, 61]\nTarget: 28<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, 82, 61, and 7, to reach the target number 28. Let's consider the operations and constraints - we can use +, -, *, and / and each number must be used exactly once.\n\nOne's approach is to use the largest numbers first and then if needed, use the smallest number.\n\nWe can that 82 - 61 = 21, which is close.\n</reasoning>\n<answer>\n\\boxed{82 - 7}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          7,
+          82,
+          61
+        ],
+        28
+      ]
+    },
+    {
+      "question": "Numbers: [69, 31, 78]\nTarget: 40",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [69, 31, 78]\nTarget: 40<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 69, 31, and 78 that evaluates to 40. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to see if we can reach the target. \n\nOne's approach is to use the largest number first, then the next number, and the smallest number. We can also try using subtraction first to reach the target.\n</reasoning>\n<answer>\n\\boxed{78 - 69 + 31}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          69,
+          31,
+          78
+        ],
+        40
+      ]
+    },
+    {
+      "question": "Numbers: [67, 27, 71]\nTarget: 23",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [67, 27, 71]\nTarget: 23<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and, subtraction, multiplication, and division. We can use the numbers 67, 27, and 71 exactly once. We need to find an expression that evaluates to 23.\n\n</reasoning>\n<answer>\n\\boxed{67 + 27 - 71}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          67,
+          27,
+          71
+        ],
+        23
+      ]
+    },
+    {
+      "question": "Numbers: [92, 1, 1]\nTarget: 46",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [92, 1, 1]\nTarget: 46<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 92, 1, and 1 exactly once to get the target number 46. The operations available are addition, subtraction, multiplication, and division.\n\nLet's try to use the numbers in a straightforward way.\nIf we divide 92 by 2, we get 46.\nThis uses uses the numbers 92, 1, and 1 exactly once and\nresultsduces the target number 46.\n</reasoning>\n<answer>\n\\boxed{92 / 1 1}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          92,
+          1,
+          1
+        ],
+        46
+      ]
+    },
+    {
+      "question": "Numbers: [68, 16, 89]\nTarget: 37",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [68, 16, 89]\nTarget: 37<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 68, 16, and 89 that evaluates to 37. We's use by trying to operations +, -, *, and / in\ndifferent combinations. We can start with using the numbers 68 and 16. We can do 68 - 16 to get 52. Now, we can use 52 and 89. get 52 - 15 = 37.\n</reasoning>\n<answer>\n\\boxed{37}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          68,
+          16,
+          89
+        ],
+        37
+      ]
+    },
+    {
+      "question": "Numbers: [33, 20, 7]\nTarget: 6",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [33, 20, 7]\nTarget: 6<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, +, -, *, and / to get the target number. Let's try to use the numbers in different ways. \n\nStep 1: Check if we can get close to the target.\n- 33 - 20 = 13\n- 13 - 7 = 6\n\nSo, the expression 33 - 20 - 7 evaluates to the target number.\n</reasoning>\n<answer>\n\\boxed{33 - 20 - 7}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          33,
+          20,
+          7
+        ],
+        6
+      ]
+    },
+    {
+      "question": "Numbers: [77, 43, 26]\nTarget: 60",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [77, 43, 26]\nTarget: 60<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the, *,, and / to reach the target 60 using the numbers 77, 43, and 26. Let's try to combinations of these operations.\n\nFirst, let's try the subtraction of the largest number from the middle number.\n77 - 43 = 34\n\nNext, let's add the result to the smallest number.\n34 + 26 = 60\n</reasoning>\n<answer>\n\\boxed{77-43+26}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          77,
+          43,
+          26
+        ],
+        60
+      ]
+    },
+    {
+      "question": "Numbers: [78, 89, 97]\nTarget: 86",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [78, 89, 97]\nTarget: 86<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 78, 89, and 97 that evaluates to 86. We can use the operations +, -, *, and /, but each number must be used exactly once.\n's try with subtraction:\n97 - 78 = 19\n99 - 13 = 86\nSo, the expression is 99 - (97 - 78).\n</reasoning>\n<answer>\n\\boxed{99 - (97 - 78)}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          78,
+          89,
+          97
+        ],
+        86
+      ]
+    },
+    {
+      "question": "Numbers: [33, 92, 17]\nTarget: 76",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [33, 92, 17]\nTarget: 76<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and their order, keeping in mind that each number must be used exactly once.\n\nFirst, let's try the subtraction operation.\n92 - 33 = 59\n\nNow, we need to reach 76 using the59 and the other numbers.\n\nLet's try the addition operation.\n59 + 17 = 76\n</reasoning>\n<answer>\n\\boxed{59 + 17}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          33,
+          92,
+          17
+        ],
+        76
+      ]
+    },
+    {
+      "question": "Numbers: [67, 39, 70]\nTarget: 98",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [67, 39, 70]\nTarget: 98<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 67, 39, and 70 that evaluates to 98. We's start by considering the operations operations +, -, *, and / We can try different combinations of numbers and operations to reach the target. One possible combination is to use the numbers 67 and 39, and then use the number 70. We's try if we can get 98 using these numbers.\n</reasoning>\n<answer>\n\\boxed{67 - 39 + 70}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          67,
+          39,
+          70
+        ],
+        98
+      ]
+    },
+    {
+      "question": "Numbers: [16, 87, 86]\nTarget: 17",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [16, 87, 86]\nTarget: 17<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 16, 87, and 86 that evaluates to 17. We's use by trial and error.\n\nStep 1: Using the smallest and largest numbers: 16 - 86 + 87 = 17\n\nStep 2: Using the smallest and the numbers in a different order: 16 + 87 - 86 = 17\n</reasoning>\n<answer>\n\\boxed{16 + 87 - 86}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          16,
+          87,
+          86
+        ],
+        17
+      ]
+    },
+    {
+      "question": "Numbers: [37, 1, 73]\nTarget: 37",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [37, 1, 73]\nTarget: 37<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 37, 1, and 73 exactly once to create an arithmetic expression that evaluates to 37. The operations available are +, -, *, and /.\n\n\n\n'st with the37 and 1.\n37 * 1 = 37\n\nNow, subtract 73.\n37 - 73 = -36\n\nFinally, add 1.\n-36 + 1 = 37\n</reasoning>\n<answer>\n\\boxed{37}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          37,
+          1,
+          73
+        ],
+        37
+      ]
+    },
+    {
+      "question": "Numbers: [72, 68, 9]\nTarget: 13",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [72, 68, 9]\nTarget: 13<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 72, 68, and 9 to get the target number 13. We can use the operations +, -, *, and /. Each number must be used exactly once.\n\nLet's try the division operation:\n72 / 68 = 1\n1 * 9 = 13\n\nSo, the expression 72 / 68) * 9 evaluates to 13.\n</reasoning>\n<answer>\n\\boxed{72 / 9}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          72,
+          68,
+          9
+        ],
+        13
+      ]
+    },
+    {
+      "question": "Numbers: [14, 7, 44]\nTarget: 65",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [14, 7, 44]\nTarget: 65<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 14, 7, and 44 exactly once to create an arithmetic expression that evaluates to 65. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to see if we can reach the target.\n\n1. Start with the largest number, 44.\n2. Try adding 14 to 7.\n3. Sub adding 44 to the result.\n</reasoning>\n<answer>\n\\boxed{7 + 44}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          14,
+          7,
+          44
+        ],
+        65
+      ]
+    },
+    {
+      "question": "Numbers: [84, 41, 66]\nTarget: 23",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [84, 41, 66]\nTarget: 23<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and their order, keeping in mind that each number must be used exactly once.\n\nFirst, let's try the subtraction operation.\n84 - 41 = 43\n\nNow, we need to use the remaining numbers to reach the target of 23.\n\nAgain, let's try the subtraction operation.\n66 - 43 = 23\n</reasoning>\n<answer>\n\\boxed{a - b - c}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          84,
+          41,
+          66
+        ],
+        23
+      ]
+    },
+    {
+      "question": "Numbers: [67, 4, 10]\nTarget: 73",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [67, 4, 10]\nTarget: 73<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 67, 4, and 10 exactly once to create an expression that evaluates to 73. We can use the operations +, -, *, and /. Let's start by considering the properties of the numbers and the target. We can that 73 is greater than 67 but less than 10. We can try to use 67 and 40 (10 * 4) and see if we get close.\n</reasoning>\n<answer>\n\\boxed{67 + 40}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          67,
+          4,
+          10
+        ],
+        73
+      ]
+    },
+    {
+      "question": "Numbers: [94, 31, 30]\nTarget: 94",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [94, 31, 30]\nTarget: 94<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to get the target number. Let's consider the operations and, -, *, and / We can use the number 94 directly. We can also use the numbers 31 and 30. We can to get the target number by using the number 31 and 30. We can multiply 31 and 30 to get 94. So, the expression is 31 * 30.\n</reasoning>\n<answer>\n\\boxed{31 \\times 30}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          94,
+          31,
+          30
+        ],
+        94
+      ]
+    },
+    {
+      "question": "Numbers: [34, 30, 100]\nTarget: 96",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [34, 30, 100]\nTarget: 96<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 34, 30, and 100 exactly once to create an arithmetic expression that evaluates to 96. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to see if we can reach the target. 96 is an even number, so we might want to use with the even numbers. We's try using the 0' in the numbers.\n</reasoning>\n<answer>\n\\boxed{100 - 4 - 30}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          34,
+          30,
+          100
+        ],
+        96
+      ]
+    },
+    {
+      "question": "Numbers: [47, 79, 71]\nTarget: 39",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [47, 79, 71]\nTarget: 39<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 47, 79, and 71 that evaluates to 39. We's start by considering the operations operations +, -, *, and /. We can use subtraction numbers to reach the target number. We know that 79 - 47 = 32, and 71 - 32 = 39. Therefore, the expression 79 - 47 will give to 39.\n</reasoning>\n<answer>\n\\boxed{79 - 47}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          47,
+          79,
+          71
+        ],
+        39
+      ]
+    },
+    {
+      "question": "Numbers: [87, 68, 9]\nTarget: 10",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [87, 68, 9]\nTarget: 10<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, operations, and parentheses to reach the target number. Let's try downgrading from target to  numbers.\n\nTarget: 10\n\nSubtract 10 from 87:\n- 87 - 10 = 77\n\nNow 77 is a the sum of the given numbers:\n- 77 = 68 + 9\n\nSo, the expression 68+9.\n</reasoning>\n<answer>\n\\boxed{68 + 9}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          87,
+          68,
+          9
+        ],
+        10
+      ]
+    },
+    {
+      "question": "Numbers: [59, 58, 5]\nTarget: 4",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [59, 58, 5]\nTarget: 4<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, 59, 58, and 5, to reach the target number, . We's try the operations operations +, -, *, and / in different combinations.\n\nreasoning>\n<answer>\n\\boxed{(59 - 58) / 5}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          59,
+          58,
+          5
+        ],
+        4
+      ]
+    },
+    {
+      "question": "Numbers: [25, 52, 87]\nTarget: 60",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [25, 52, 87]\nTarget: 60<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and, subtraction, multiplication, and division. We can use the numbers 25, 52, and 87 exactly once. We need to find an expression that evaluates to 60.\nWe try to use the largest number first. Let's see that 87 - 25 = 60. This, indeed, gives us the target number.\n</reasoning>\n<answer>\n\\boxed{87 - 25}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          25,
+          52,
+          87
+        ],
+        60
+      ]
+    },
+    {
+      "question": "Numbers: [95, 34, 52]\nTarget: 9",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [95, 34, 52]\nTarget: 9<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the three numbers, -95, 34, and 52, to get the target number 9. We can use the operations +, -, *, and /. Each number must be used exactly once.\n\nLet's try the following operations:\n-.\n\n.\n\n.\n\n\n.\n\n.\n\n\n.\n\n.\n\n.\n\n.\n\n\n.\n\n</reasoning>\n<answer>\n\\boxed{(-95/52) + 34}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          95,
+          34,
+          52
+        ],
+        9
+      ]
+    },
+    {
+      "question": "Numbers: [14, 69, 24]\nTarget: 31",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [14, 69, 24]\nTarget: 31<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and properties - we can use addition, subtraction, multiplication, and division. We need to use each number exactly once.\n\nLet's try to reach the target number by using subtraction. We can subtract 14 from 69 to get 55. Then, we can subtract 24 from 55 to get 31.\n\n</reasoning>\n<answer>\n\\boxed{(69 - 14) - 24}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          14,
+          69,
+          24
+        ],
+        31
+      ]
+    },
+    {
+      "question": "Numbers: [22, 52, 37]\nTarget: 7",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [22, 52, 37]\nTarget: 7<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the, *,, and / to get the target number 7 using the numbers 22, 52, and 37 exactly once's start by trying to use the target number as a result of the operations. We can try to express the target number as a combination of the given numbers. We can try to express the target number as a combination of the given numbers. We can try to express the target number as a combination of the given numbers.\n</reasoning>\n<answer>\n\\boxed{59 - 52}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          22,
+          52,
+          37
+        ],
+        7
+      ]
+    },
+    {
+      "question": "Numbers: [5, 76, 17]\nTarget: 98",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [5, 76, 17]\nTarget: 98<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 5, 76, and 17 exactly once to create an arithmetic expression that evaluates to 98. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to see if we can reach the target.\n\n1. Start with the largest number, 76.\n2. Try adding 76 and 17, which gives 98. This works!\n\n</reasoning>\n<answer>\n\\boxed{76 + 17}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          5,
+          76,
+          17
+        ],
+        98
+      ]
+    },
+    {
+      "question": "Numbers: [94, 57, 2]\nTarget: 35",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [94, 57, 2]\nTarget: 35<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the three numbers, - 94, 57, and 2 - to get the result 35. Let's try to use the numbers in a way that adds up to 35. We can start by using the largest number, 94, and then subtract 57 to get 37. Now, we need to subtract 2 from 37 to get 35.\n</reasoning>\n<answer>\n\\boxed{94 - 57 - 2}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          94,
+          57,
+          2
+        ],
+        35
+      ]
+    },
+    {
+      "question": "Numbers: [94, 38, 78]\nTarget: 22",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [94, 38, 78]\nTarget: 22<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the three numbers, -94, 38, and 78, to get the result 22. We can start by considering the properties of the numbers and the operations..\n\nFirst, let's try the combination of subtraction. We can use the largest numbers to get close to the target. then use the smallest number to adjust the result.\n\n38 + 78 - 94 = 22\n</reasoning>\n<answer>\n\\boxed{38 + 78 - 94}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          94,
+          38,
+          78
+        ],
+        22
+      ]
+    },
+    {
+      "question": "Numbers: [18, 37, 2]\nTarget: 73",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [18, 37, 2]\nTarget: 73<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 18, 37, and 2 exactly once to create an expression that evaluates to 73. Let's consider the operations and constraints - we can use +, -, *, and / and each number must be used exactly once. We\ncan start by trying to use the target number as a result of the operations. We can try to express the73 as a combination of the given numbers using the operations.\n</reasoning>\n<answer>\n\\boxed{18 + 37 + 18 * 2}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          18,
+          37,
+          2
+        ],
+        73
+      ]
+    },
+    {
+      "question": "Numbers: [49, 73, 81]\nTarget: 57",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [49, 73, 81]\nTarget: 57<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and their properties, keeping in mind that each number must be used exactly once.\n\nFirst, let's try the subtraction operation. We can to subtract the smallest number from the largest number to\nreach close to the target.\n\n81 - 24 = 57\n\nSo, we expression is be 81 - 24 = 57.\n</reasoning>\n<answer>\n\\boxed{81 - 24}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          49,
+          73,
+          81
+        ],
+        57
+      ]
+    },
+    {
+      "question": "Numbers: [27, 16, 63]\nTarget: 74",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [27, 16, 63]\nTarget: 74<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the, *,, and / to reach the target 74 using the numbers 27, 16, and 63 exactly Let's start by considering the sum of 27 and 16 which is 27 + 16 = 43. Now we need to add 63 to this result to get 74. So, the expression is 27 + 16 + 63\n</reasoning>\n<answer>\n\\boxed{27 + 16 +63}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          27,
+          16,
+          63
+        ],
+        74
+      ]
+    },
+    {
+      "question": "Numbers: [66, 73, 60]\nTarget: 67",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [66, 73, 60]\nTarget: 67<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and properties - we can use addition, subtraction, multiplication, and division. We need to use each number exactly once.\n\nLet's try to use the largest number first, which is 73. We can subtract 66 from 73 to get 7. Now, we need to add 60 to 7 to get 67.\n</reasoning>\n<answer>\n\\boxed{73 - 66 + 60}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          66,
+          73,
+          60
+        ],
+        67
+      ]
+    },
+    {
+      "question": "Numbers: [94, 69, 35]\nTarget: 60",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [94, 69, 35]\nTarget: 60<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 94, 69, and 35 to get the target number 60. Let's consider the operations operations +, -, *, and /.\n\n\n</reasoning>\n<answer>\n\\boxed{94 - 69 + 35}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          94,
+          69,
+          35
+        ],
+        60
+      ]
+    },
+    {
+      "question": "Numbers: [84, 96, 99]\nTarget: 87",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [84, 96, 99]\nTarget: 87<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 99. If we subtract 99 from the target, we get -8. Now, we need to use -8 and the remaining numbers 84 and 96. reach -8 by 96 - 84. -8 + (96 - 84) = 8 + 84 = 97\n</reasoning>\n<answer>\n\\boxed{-8 + (96 - 84)}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          84,
+          96,
+          99
+        ],
+        87
+      ]
+    },
+    {
+      "question": "Numbers: [69, 33, 59]\nTarget: 95",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [69, 33, 59]\nTarget: 95<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 69, 33, and 59 that evaluates to 95. We's start by considering the operations operations +, -, *, and / We can try different combinations of numbers and operations to reach the target. One possible combination is to use the numbers 69 and 33 first and then use the number 59. We's try if we can get 95 using these operations.\n</reasoning>\n<answer>\n\\boxed{69 - 33 + 59}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          69,
+          33,
+          59
+        ],
+        95
+      ]
+    },
+    {
+      "question": "Numbers: [17, 20, 12]\nTarget: 49",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [17, 20, 12]\nTarget: 49<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 17, 20, and 12 that evaluates to 49. We's use by trial and error.\n\n1. Add 17 and 20: 17 + 20 = 37, which is less than 49.\n2. Add 37 and 12: 37 + 12 = 49, which matches the target.\n</reasoning>\n<answer>\n\\boxed{17 + 20 +12}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          17,
+          20,
+          12
+        ],
+        49
+      ]
+    },
+    {
+      "question": "Numbers: [82, 96, 2]\nTarget: 16",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [82, 96, 2]\nTarget: 16<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 82, 96, and 2 to reach the target 16. We's try by using the operations +, -, *, and /.\n\nFirst, let's consider the division operation. If we divide 96 by 2, we get 48. Now, we can subtract 82 from 48 to get 16.\n\nSo, the expression is: 48 - 82.\n\n<answer>\n\\boxed{48 - 82}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          82,
+          96,
+          2
+        ],
+        16
+      ]
+    },
+    {
+      "question": "Numbers: [90, 52, 9]\nTarget: 29",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [90, 52, 9]\nTarget: 29<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the numbers +, -, *, and / to reach the target number.\n90 - 52 = 38\n38 / 9 = 4\n4 * 9 = 36\n90 - 36 = 54\n54 - 29 = 25\nHowever, the target is 29, so we need to adjust the expression.\n</reasoning>\n<answer>\n\\boxed{90 - 52 + 9 - 52 / 9}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          90,
+          52,
+          9
+        ],
+        29
+      ]
+    },
+    {
+      "question": "Numbers: [35, 20, 11]\nTarget: 26",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [35, 20, 11]\nTarget: 26<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 35. If we subtract 20 from 35, we get 15. This is close to the target, but we need to add 11 to get 26. So, the expression would be 35 - 20 + 11. This uses uses each number exactly once and evaluates to the target.\n</reasoning>\n<answer>\n\\boxed{35 - 20 +11}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          35,
+          20,
+          11
+        ],
+        26
+      ]
+    },
+    {
+      "question": "Numbers: [29, 98, 57]\nTarget: 70",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [29, 98, 57]\nTarget: 70<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 29, 98, and 57 that evaluates to 70. We's start by considering the operations operations +, -, *, and / We can try different combinations of numbers and operations to see if we can reach the target. \n\nLet's try using the numbers 98 and 57. We can subtract 57 from 98 to get 41. Now we need to use 29. \n</reasoning>\n<answer>\n\\boxed{41}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          29,
+          98,
+          57
+        ],
+        70
+      ]
+    },
+    {
+      "question": "Numbers: [41, 99, 76]\nTarget: 64",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [41, 99, 76]\nTarget: 64<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and, subtraction, multiplication, and division. We can use the numbers 41, 99, and 76 exactly once. We need to find an expression that evaluates to 64.\n\nLet's try:\n- 99 - 41 = 58\n- 76 - 48 = 64\n</reasoning>\n<answer>\n\\boxed{99 - 41 - 76}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          41,
+          99,
+          76
+        ],
+        64
+      ]
+    },
+    {
+      "question": "Numbers: [14, 32, 7]\nTarget: 39",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [14, 32, 7]\nTarget: 39<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, +, subtraction, -, multiplication, *, and division, / to reach the target number.\n\n's try with the operations\n14 + 32 = 46\n46 - 7 = 39\n\nHowever, the numbers need to be used only once.\n\nLet's try another order:\n14 + 32 = 46\n46 - 7 = 39\n</reasoning>\n<answer>\n\\boxed{14+32-7}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          14,
+          32,
+          7
+        ],
+        39
+      ]
+    },
+    {
+      "question": "Numbers: [12, 71, 32]\nTarget: 91",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [12, 71, 32]\nTarget: 91<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 71. If we add 12 to 71, we get 83, which is less than 91. If we subtract 12 to 71, we get 59, which is less than 99. If we add 32 to 59, we get 91, which matches the target.\n</reasoning>\n<answer>\n\\boxed{59 + 32}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          12,
+          71,
+          32
+        ],
+        91
+      ]
+    },
+    {
+      "question": "Numbers: [43, 40, 86]\nTarget: 83",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [43, 40, 86]\nTarget: 83<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's consider the operations and their effects. We can use the numbers +, -, *, and / exactly once and must use each number exactly once.\n\nLet's try with the operations\n43 + 40 = 83\n\nThe, 43 + 40 = 83\n\nWe, however, need to use the number 86 to reach 83.\n</reasoning>\n<answer>\n\\boxed{86 - 40}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          43,
+          40,
+          86
+        ],
+        83
+      ]
+    },
+    {
+      "question": "Numbers: [33, 73, 94]\nTarget: 54",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [33, 73, 94]\nTarget: 54<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 94. If we subtract 73 from 94, we get 21. This is close to the target, but we need to subtract 3 to reach 54. We can use the 33 to get the remaining 3.\n\n94 - 73 = \n33 - 33 = 0\n\n</reasoning>\n<answer>\n\\boxed{73 - 33}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          33,
+          73,
+          94
+        ],
+        54
+      ]
+    },
+    {
+      "question": "Numbers: [51, 60, 99]\nTarget: 11",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [51, 60, 99]\nTarget: 11<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's break down the problem:\n- We have three numbers: 51, 60, and 99.\n- The target number is 11.\n- We can use each number exactly once.\n- We operations are +, -, *, and /.\n\nLet's try the combinations:\n\n- 61 - 50 = 11\n\n-\n\n</reasoning>\n<answer>\n\\boxed{61 - 50}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          51,
+          60,
+          99
+        ],
+        11
+      ]
+    },
+    {
+      "question": "Numbers: [6, 96, 38]\nTarget: 64",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [6, 96, 38]\nTarget: 64<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 6, 96, and 38 exactly once to create an arithmetic expression that evaluates to 64. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to see if we can reach the target.\n\n1. Start with the largest number, 96.\n2. Subtract 38 from 96 to get 58.\n3. Divide 58 by 6 to get 9.\n\n<answer>\n  64\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          6,
+          96,
+          38
+        ],
+        64
+      ]
+    },
+    {
+      "question": "Numbers: [69, 80, 93]\nTarget: 82",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [69, 80, 93]\nTarget: 82<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and their order, keeping in mind that each number must be used exactly once.\n\nFirst, let's try the subtraction operation.\n93 - 69 = 24\n\nNow, we need to reach 82 using the24 and the other numbers.\n\nLet's try the addition operation.\n24 + 58 = 82\n\n</reasoning> <answer>\n\\boxed{93 - 69}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          69,
+          80,
+          93
+        ],
+        82
+      ]
+    },
+    {
+      "question": "Numbers: [43, 8, 23]\nTarget: 58",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [43, 8, 23]\nTarget: 58<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 43, 8, and 23 exactly once to create an arithmetic expression that evaluates to 58. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to see if we can reach the target.\n\n1. Start with the largest number, 43.\n2. Try adding 43 and 23, which gives 66.\n\n</reasoning>\n<answer>\n\\boxed{43 + 23 - 8}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          43,
+          8,
+          23
+        ],
+        58
+      ]
+    },
+    {
+      "question": "Numbers: [43, 70, 92]\nTarget: 21",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [43, 70, 92]\nTarget: 21<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and, subtraction, multiplication, and division. We can use the numbers 43, 70, and 92 exactly once. We need to find an expression that evaluates to 21.\n\n</reasoning>\n<answer>\n\\boxed{92 - 70 + 43}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          43,
+          70,
+          92
+        ],
+        21
+      ]
+    },
+    {
+      "question": "Numbers: [4, 15, 15]\nTarget: 4",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [4, 15, 15]\nTarget: 4<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 4, 15, and 15 exactly once to create an arithmetic expression that evaluates to 4. The operations allowed are +, -, *, and /.\n\nLet's consider the following:\n- We can subtract 15 by 15 to get 0.\n- Then, we can add 4 to 0 to get 4.\n\nSo, the expression is: 15 - 15 + 4.\n</reasoning>\n<answer>\n\\boxed{15 - 4}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          4,
+          15,
+          15
+        ],
+        4
+      ]
+    },
+    {
+      "question": "Numbers: [81, 70, 4]\nTarget: 7",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [81, 70, 4]\nTarget: 7<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, 70, 81, and 4, to reach the target 7. We can use the operations +, -, *, and / but each number must be used exactly once.\n'st with the largest number, 81, and try to use it to get the closest.\n81 - 70 = 11\n11 - 4 = 7\n</reasoning>\n<answer>\n\\boxed{81 - 70 - 4}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          81,
+          70,
+          4
+        ],
+        7
+      ]
+    },
+    {
+      "question": "Numbers: [94, 90, 86]\nTarget: 98",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [94, 90, 86]\nTarget: 98<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 94, 90, and 86 that evaluates to 98. We can use the operations +, -, *, and /, but each number must be used exactly once.\n\nLet's start the operations:\n-.\n94\n-.\n90\n-.\n86\n\nWe can try the expression:\n94 + 90 - 86\n\n</reasoning>\n<answer>\n\\boxed{94 + 90 - 86}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          94,
+          90,
+          86
+        ],
+        98
+      ]
+    },
+    {
+      "question": "Numbers: [30, 100, 93]\nTarget: 23",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [30, 100, 93]\nTarget: 23<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 30, 100, and 93 to get the target number 23. Let's consider the operations and their combinations, keeping in mind that each number must be used exactly once.\n\nOne can try is to use the subtraction operation. We can subtract 100 from 93 to get 23. This gives us the expression 93 - 100 = 23.\n</reasoning>\n<answer>\n\\boxed{93 - 100}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          30,
+          100,
+          93
+        ],
+        23
+      ]
+    },
+    {
+      "question": "Numbers: [80, 2, 40]\nTarget: 1",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [80, 2, 40]\nTarget: 1<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, +, -, *, and / to reach the target number. Let's consider the operations and their effects. We\ncan start with the largest number and 0, but the target is 1, so we can't use 0. We can try dividing the largest number by the smallest number,\nbut 80 / 1 = 80, not 1. We can try dividing the smallest number by the largest number, but 2 / 80 is undefined.<|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          80,
+          2,
+          40
+        ],
+        1
+      ]
+    },
+    {
+      "question": "Numbers: [69, 86, 74]\nTarget: 57",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [69, 86, 74]\nTarget: 57<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 69, 86, and 74 that evaluates to 57. We's use by trying different operations.\n\nFirst. Let's try Subtraction: 69 + 86 - 74 = 57\n\nSecond. Let's try Division: 86 / 74 = 17/74 \u2260 57\n\n</,>>\n</reasoning>\n<answer>\n\\boxed{69 + 86 - 74}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          69,
+          86,
+          74
+        ],
+        57
+      ]
+    },
+    {
+      "question": "Numbers: [34, 5, 1]\nTarget: 40",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [34, 5, 1]\nTarget: 40<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 34, 5, and 1 exactly once to reach the target 40. The operations available are addition, subtraction, multiplication, and division. We's try to manipulate the expression step by step.\n\nFirst, let's consider the number 34. We can multiply 34 by 1 to get 34. Now, we need to reach 40. We can add 5 to 34 to get 40.\n</reasoning>\n<answer>\n\\boxed{34 + 5}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          34,
+          5,
+          1
+        ],
+        40
+      ]
+    },
+    {
+      "question": "Numbers: [17, 92, 77]\nTarget: 32",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [17, 92, 77]\nTarget: 32<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 17, 92, and 77 that evaluates to 32. We's use by trying to use the numbers in different ways.\n\nStep 1: Subtraction: 92 - 77 = 15\nStep 2: Addition: 17 + 15 = 32\n\nSo, the expression is (92 - 77) + 17.\n</reasoning>\n<answer>\n\\boxed{15 + 17}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          17,
+          92,
+          77
+        ],
+        32
+      ]
+    },
+    {
+      "question": "Numbers: [38, 21, 31]\nTarget: 3",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [38, 21, 31]\nTarget: 3<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the operations +, -, *, and / to get the target number 3 using the numbers 38, 21, and 31 exactly once.\n's try with the operations\n38 * 21 = 117\n117 / 31 = 3\n\n,\nSo the expression is 38 * 21 / 31.</reasoning>\n<answer>\n\\boxed{38 * 21 / 31}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          38,
+          21,
+          31
+        ],
+        3
+      ]
+    },
+    {
+      "question": "Numbers: [59, 13, 21]\nTarget: 93",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [59, 13, 21]\nTarget: 93<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 59. If we add 59 and 21, we get 80, which is less than the target. If we add 59 and 13, we get 72, which is also less than the target. If we add 52 and 21, we get 93, which is exactly the target number.\n</reasoning>\n<answer>\n\\boxed{72 + 21}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          59,
+          13,
+          21
+        ],
+        93
+      ]
+    },
+    {
+      "question": "Numbers: [86, 21, 74]\nTarget: 9",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [86, 21, 74]\nTarget: 9<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the, *,, and / to get the target number 9 using the numbers 86, 21, and 74 exactly once's start by trying to use the target number as a result of the operations. We can try to express the target number as a combination of the given numbers. We can try to express the target number as a combination of the given numbers. We can try to express the target number as a combination of the given numbers.\n</reasoning>\n<answer>\n\\boxed{86 - 74}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          86,
+          21,
+          74
+        ],
+        9
+      ]
+    },
+    {
+      "question": "Numbers: [76, 50, 50]\nTarget: 76",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [76, 50, 50]\nTarget: 76<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. The numbers are 76, 50, and 50, and the target is 76. We can use the operations +, -, *, and /. Each number must be used exactly once.\n\nLet's consider the operations:\n- We can use the numbers 76 and 50.\n- If we subtract 76 from 50, we get 76.\n</reasoning>\n<answer>\n\\boxed{50-76}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          76,
+          50,
+          50
+        ],
+        76
+      ]
+    },
+    {
+      "question": "Numbers: [7, 92, 30]\nTarget: 69",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [7, 92, 30]\nTarget: 69<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, 92, 30, and 7, to reach the target 69. Let's consider the possible combinations:\n- 92 - 30 = 62\n- 92 - 7 = 85\n- 30 - 7 = 23\n\nWe can reach 69 by subtracting 30 from 92 - 7. \n</reasoning>\n\n<answer>\n\\boxed{92 - 7 - 30}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          7,
+          92,
+          30
+        ],
+        69
+      ]
+    },
+    {
+      "question": "Numbers: [30, 8, 75]\nTarget: 37",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [30, 8, 75]\nTarget: 37<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 30, 8, and 75 to reach the target 37. Let's consider the possible operations:\n- We can use addition, subtraction, multiplication, and division.\n- Each number must be used exactly once.\n\nLet's start by trying to subtract:\n- 75 - 30 = 45\n- 45 - 8 = 37\n\n</reasoning>\n<answer>\n\\boxed{ (75 - 30) - 8}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          30,
+          8,
+          75
+        ],
+        37
+      ]
+    },
+    {
+      "question": "Numbers: [86, 36, 25]\nTarget: 25",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [86, 36, 25]\nTarget: 25<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's consider the operations and constraints - we can use +, -, *, and / and each number must be used exactly once.\n\nOne can try is to use the division operation to reach the target number.\nIf's try 86 / 36, 36 / 25, 25 / 86,\n\nWe, 86 / 36 = 25\n</reasoning>\n<answer>\n\\boxed{86/36}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          86,
+          36,
+          25
+        ],
+        25
+      ]
+    },
+    {
+      "question": "Numbers: [57, 1, 64]\nTarget: 6",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [57, 1, 64]\nTarget: 6<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 57, 1, and 64 exactly once to reach the target 6 using the operations +, -, *, and /. Let's consider the possible of using division first, as it can lead us to a smaller numbers. If we divide 64 by 1, then we get 64. Now, we need to reach 6 using the57. We can subtract 57 from 64, which in 6.\n</reasoning>\n<answer>\n\\boxed{64 - 57}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          57,
+          1,
+          64
+        ],
+        6
+      ]
+    },
+    {
+      "question": "Numbers: [23, 29, 33]\nTarget: 39",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [23, 29, 33]\nTarget: 39<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and properties - we can use addition, subtraction, multiplication, and division. We need to use each number exactly once.\n\nLet's try to use the largest number first (33) and then use the other numbers (23 and 29) to reach the target.\n\n33 - 23 + 29 = 39\n</reasoning>\n<answer>\n\\boxed{33 - 23 + 29}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          23,
+          29,
+          33
+        ],
+        39
+      ]
+    },
+    {
+      "question": "Numbers: [28, 23, 28]\nTarget: 23",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [28, 23, 28]\nTarget: 23<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the three numbers, -, *,, and / to get the target number. The's try the subtraction: 28 - 23 = 5, which doesn't work since target is 23. Let's try the multiplication: 28 * 23 = 664, which doesn't work since target is 23. Let's try the division: 28 / 23 = 1, which works.\n</reasoning>\n<answer>\n\\boxed{28 / 23}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          28,
+          23,
+          28
+        ],
+        23
+      ]
+    },
+    {
+      "question": "Numbers: [91, 89, 61]\nTarget: 63",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [91, 89, 61]\nTarget: 63<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 91. If we subtract 89 from 91, we get 2, which is not close to the target. Now, let's subtract 61 from 91, which gives 30. Then, we can add 89 to 30 to get 63. So, the expression is 61-89.\n</reasoning>\n<answer>\n\\boxed{61-89}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          91,
+          89,
+          61
+        ],
+        63
+      ]
+    },
+    {
+      "question": "Numbers: [21, 12, 81]\nTarget: 72",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [21, 12, 81]\nTarget: 72<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the, *,, and / to reach the target 72 using the numbers 21, 12, and 81 exactly Let's start by considering the operations and their combinations. If we add the numbers: 21 + 81 = 102, which is too large. If we multiply the numbers: 21 * 81 = 1661, which is too large. Let's try subtraction.\n</reasoning>\n<answer>\n\\boxed{81 - 12}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          21,
+          12,
+          81
+        ],
+        72
+      ]
+    },
+    {
+      "question": "Numbers: [58, 12, 30]\nTarget: 76",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [58, 12, 30]\nTarget: 76<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, +, subtraction, -, multiplication, *, and division, / to reach the target number. We can use each number only once.\n</reasoning>\n<answer>\n\\boxed{58 + 12 + 30}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          58,
+          12,
+          30
+        ],
+        76
+      ]
+    },
+    {
+      "question": "Numbers: [79, 46, 37]\nTarget: 88",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [79, 46, 37]\nTarget: 88<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, +, subtraction, -, multiplication, *, and division, / to reach the target number.\n\n's try with the first operation:\n79 + 46 = 125\n125 - 37 = 88\n\nThis, , 79 + 46 - 37, is the expression that evaluates to the target number  88.\n\n</reasoning>\n\n<answer>\n\\boxed{79 + 46 - 37}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          79,
+          46,
+          37
+        ],
+        88
+      ]
+    },
+    {
+      "question": "Numbers: [43, 25, 25]\nTarget: 43",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [43, 25, 25]\nTarget: 43<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's consider the operations and constraints - we can use +, -, *, and / and each number must be used exactly once.\n\nOne can try is to use the subtraction operation to reach the target number.\n\n we can use the 55 = 25 + 25 and then subtract 12 from it: 55 - 12 = 43\n</reasoning>\n<answer>\n\\boxed{25 + 25 - 12}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          43,
+          25,
+          25
+        ],
+        43
+      ]
+    },
+    {
+      "question": "Numbers: [10, 99, 96]\nTarget: 7",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [10, 99, 96]\nTarget: 7<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the numbers +, -, *, and / to get the target number.7 is a prime number, so we only need to use the division operation.\n\nDividing with 1 number will give us the target number.\n\nWe can use the numbers 10, 99, and 96.\n\nDividing by 10 will give us 7.\n\nSo, the expression is 70 / 10\n</reasoning>\n<answer>\n\\boxed{70 / 10}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          10,
+          99,
+          96
+        ],
+        7
+      ]
+    },
+    {
+      "question": "Numbers: [61, 60, 4]\nTarget: 3",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [61, 60, 4]\nTarget: 3<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers, +, -, *, and / to get the target number. Let's consider the operations:\n-. We can start with 61 and 60. The difference between 61 and 60 is 1.\n-. We can multiply 1 by 4 to get 3.\n\nSo, the expression is: (61 - 60) * 4.\n</reasoning>\n<answer>\n\\boxed{(61 - 60) * 4}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          61,
+          60,
+          4
+        ],
+        3
+      ]
+    },
+    {
+      "question": "Numbers: [99, 68, 95]\nTarget: 64",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [99, 68, 95]\nTarget: 64<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 99, 68, and 95 that evaluates to 64. We's start by considering the operations operations +, -, *, and /. We can use subtraction operations to reach the target number. We can try to use the largest number first, which is 99. If we subtract 95 from 99, we get 6. Then, subtracting 68 from 6 gives 64.\n</reasoning>\n<answer>\n\\boxed{99 - 68}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          99,
+          68,
+          95
+        ],
+        64
+      ]
+    },
+    {
+      "question": "Numbers: [4, 12, 97]\nTarget: 81",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [4, 12, 97]\nTarget: 81<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 4, 12, and 97 exactly once to create an arithmetic expression that evaluates to 81. We's start by considering the operations operations +, -, *, and /. We can try to combine the numbers in different ways to reach 81. One approach is to to use the subtraction operation to get close to 81 and then use the addition operation to adjust the result. Let's try with 97 - 12.\n</reasoning>\n<answer>\n\\boxed{97 - 12}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          4,
+          12,
+          97
+        ],
+        81
+      ]
+    },
+    {
+      "question": "Numbers: [68, 32, 73]\nTarget: 37",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [68, 32, 73]\nTarget: 37<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 68, 32, and 73 that evaluates to 37. We's start by considering the operations operations +, -, *, and / We can try different combinations of numbers and operations to see if we can reach the target.\n</reasoning>\n<answer>\n\\boxed{73 - 32 - 68}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          68,
+          32,
+          73
+        ],
+        37
+      ]
+    },
+    {
+      "question": "Numbers: [10, 36, 8]\nTarget: 38",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [10, 36, 8]\nTarget: 38<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the operations +, -, *, and / to reach the target number 38 using the numbers 10, 36, and 8 exactly once.\n\nLet's try combining different operations:\n- 10 + 36 = 46\n- 46 - 8 = 38\n\nSo, the expression 10 + 36 - 8 evaluates to exactly 38.\n</reasoning>\n<answer>\n\\boxed{10 + 36 - 8}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          10,
+          36,
+          8
+        ],
+        38
+      ]
+    },
+    {
+      "question": "Numbers: [90, 43, 90]\nTarget: 43",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [90, 43, 90]\nTarget: 43<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the operations +, -, *, and / to get the target number 43 using the numbers 90, 43, and 90 exactly one number.\n\nLet's try the following approach:\n- 90 + 90 = 180\n- 180 - 137 = 43\n\nThis, we can use 90 and 43 to get 43.\n</reasoning>\n<answer>\n\\boxed{90 - 43}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          90,
+          43,
+          90
+        ],
+        43
+      ]
+    },
+    {
+      "question": "Numbers: [48, 34, 17]\nTarget: 3",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [48, 34, 17]\nTarget: 3<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the numbers numbers, 48, 34, and 17, to get the target number 3. Let's try to manipulate the numbers to get close to the target. We can start by using the largest number, 48, and subtract it34 from 48 to get 48 - 34 = 14. Now we need to divide 14 by 17 to get 3.\n</reasoning>\n<answer>\n\\boxed{(48-34)/17}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          48,
+          34,
+          17
+        ],
+        3
+      ]
+    },
+    {
+      "question": "Numbers: [71, 18, 14]\nTarget: 67",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [71, 18, 14]\nTarget: 67<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 71, 18, and 14 that evaluates to 67. We's start by considering the operations operations +, -, *, and / We can try to combine the numbers in different ways to reach the target number. One possible is to use the and subtraction to get the difference between the target and one of the numbers, and then use the other numbers to reach the difference.\n</reasoning>\n<answer>\n\\boxed{(71 - 67) * 18 + 14}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          71,
+          18,
+          14
+        ],
+        67
+      ]
+    },
+    {
+      "question": "Numbers: [22, 58, 36]\nTarget: 44",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [22, 58, 36]\nTarget: 44<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and properties - we can use addition, subtraction, multiplication, and division. We need to use each number exactly once.\n\nLet's try to use the largest number first, which is 58. We can subtract 22 from 58 to get 44. This, along, with the remaining numbers 22 and 36, achieves our target.\n</reasoning>\n<answer>\n\\boxed{58 - 22}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          22,
+          58,
+          36
+        ],
+        44
+      ]
+    },
+    {
+      "question": "Numbers: [76, 91, 66]\nTarget: 81",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [76, 91, 66]\nTarget: 81<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and properties - we can use addition, subtraction, multiplication, and division. We need to use each number exactly once.\n\nLet's try to reach the target number by using subtraction. We\ncan  use the numbers 91 and 66 to get 157, then subtract 76 from 157 to get 81.\n</reasoning>\n<answer>\n\\boxed{91 + 66-76}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          76,
+          91,
+          66
+        ],
+        81
+      ]
+    },
+    {
+      "question": "Numbers: [56, 86, 24]\nTarget: 54",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [56, 86, 24]\nTarget: 54<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 56, 86, and 24 to get the target 54. Let's try to combinations of these numbers.\n\nFirst 56 + 24 = 80, and then 80 - 26 = 54.\n\nSo, the expression can be 56 + 24 - 26.\n</reasoning>\n<answer>\n\\boxed{56 + 24 - 26}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          56,
+          86,
+          24
+        ],
+        54
+      ]
+    },
+    {
+      "question": "Numbers: [91, 2, 52]\nTarget: 37",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [91, 2, 52]\nTarget: 37<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 91, 2, and 52 exactly once to create an arithmetic expression that evaluates to 37. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to see if we can reach the target. 37 is a prime number, so we might need to use division to subtraction to reach the target. Let's try using 91 and 2 first.\n</reasoning>\n<answer>\n\\boxed{91 / 2 - 52}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          91,
+          2,
+          52
+        ],
+        37
+      ]
+    },
+    {
+      "question": "Numbers: [13, 65, 64]\nTarget: 12",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [13, 65, 64]\nTarget: 12<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 13, 65, and 64 that evaluates to 12. We's use by trial and error.\n\nStep 1: Try using addition with the first two numbers.\n- 13 + 65 = 78\n\nStep 2: Try using subtraction with the result from the third number.\n- 78 - 64 = 12\n\n</reasoning>\n\n<answer>\n\\boxed{13 + 65 - 64}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          13,
+          65,
+          64
+        ],
+        12
+      ]
+    },
+    {
+      "question": "Numbers: [88, 26, 94]\nTarget: 20",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [88, 26, 94]\nTarget: 20<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 88, 26, and 94 that evaluates to 20. We can use the operations +, -, *, and /, but we must use each number exactly once.\n's try with subtraction: 94 - 26 = 68, which leaves 88 - 68 = 20.\n, 88 - 94 - 26)\n\n</reasoning>\n<answer>\n\\boxed{88 - 94 - 26)}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          88,
+          26,
+          94
+        ],
+        20
+      ]
+    },
+    {
+      "question": "Numbers: [28, 4, 25]\nTarget: 49",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [28, 4, 25]\nTarget: 49<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 28, 4, and 25 exactly once to create an arithmetic expression that evaluates to 49. Let's consider the operations operations +, -, *, and /.\n\n\n\nReasoning:\n1. Add 28 and 25: 28 + 25 = 53.\n2. Subtract 4 from 53: 53 -4 = 49.\n</reasoning>\n<answer>\n\\boxed{(28 + 25) - 4}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          28,
+          4,
+          25
+        ],
+        49
+      ]
+    },
+    {
+      "question": "Numbers: [98, 10, 59]\nTarget: 49",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [98, 10, 59]\nTarget: 49<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 98. If we subtract 59 from 98, we get 39. This is close to the target, but we need to add 9 to reach 49. We can use the number 10 to achieve this. So, the expression will be (98 - 59) + 10.\n</reasoning>\n<answer>\n\\boxed{(98 - 59) + 10}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          98,
+          10,
+          59
+        ],
+        49
+      ]
+    },
+    {
+      "question": "Numbers: [4, 89, 12]\nTarget: 73",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [4, 89, 12]\nTarget: 73<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 4, 89, and 12 exactly once to create an arithmetic expression that evaluates to 73. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to see if we can reach the target.\n\n1. Start with the largest number, 89.\n2. Subtract 12 to get 77.\n3. Subtract 4 to get 73.\n</reasoning>\n<answer>\n\\boxed{89}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          4,
+          89,
+          12
+        ],
+        73
+      ]
+    },
+    {
+      "question": "Numbers: [52, 45, 12]\nTarget: 5",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [52, 45, 12]\nTarget: 5<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the operations +, -, *, and / to get the target number 5 using the numbers 52, 45, and 12 exactly once.\n's try with the:\n52 - 45 = 7\n12 / 7 = 2\n7 - 2 = 5\nSo, the expression 52 - 45 - 12 / 7 = 5.\n</reasoning>\n<answer>\n\\boxed{52-45-12\\div7}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          52,
+          45,
+          12
+        ],
+        5
+      ]
+    },
+    {
+      "question": "Numbers: [27, 76, 38]\nTarget: 11",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [27, 76, 38]\nTarget: 11<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 27, 76, and 38 that evaluates to 11. We's use by trial and error.\n\nStep 1: Try the sum of the numbers: 27 + 76 - 38 = 65. 38 - 27 = 11.\n\nStep 2: Try the difference of the numbers: 76 - 65 = 11.\n</reasoning>\n<answer>\n\\boxed{76-65}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          27,
+          76,
+          38
+        ],
+        11
+      ]
+    },
+    {
+      "question": "Numbers: [31, 41, 75]\nTarget: 65",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [31, 41, 75]\nTarget: 65<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and properties - we can use addition, subtraction, multiplication, and division. We need to use each number exactly once.\n\nLet's try to use the largest number first, which is 75. We can subtract 75 from the target to get -10. Now we need to express -10 using the remaining numbers 31 and 41.\n</reasoning>\n\n<answer>\n\\boxed{31 - 41}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          31,
+          41,
+          75
+        ],
+        65
+      ]
+    },
+    {
+      "question": "Numbers: [89, 45, 15]\nTarget: 59",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [89, 45, 15]\nTarget: 59<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 89. If we subtract 45 from 89, we get 44. This is close to the target, but we need to add 5 to reach 59. We can use 15 to add this 5. So, the expression will be 89 - 45 + 15.\n</reasoning>\n\n<answer>\n\\boxed{89 - 45 + 15}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          89,
+          45,
+          15
+        ],
+        59
+      ]
+    },
+    {
+      "question": "Numbers: [19, 3, 5]\nTarget: 52",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [19, 3, 5]\nTarget: 52<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 19, 3, and 5 exactly once to get the number 52. Let's consider the operations and constraints - we can use +, -, *, and /. each number must be used exactly once.\n\nOne's approach is to use multiplication to get the target number.\nWe can that 19 * 3 = 52.\n\nSo, the expression that be 52 is 19 * 3.\n</reasoning>\n<answer>\n\\boxed{19 * 3}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          19,
+          3,
+          5
+        ],
+        52
+      ]
+    },
+    {
+      "question": "Numbers: [32, 70, 31]\nTarget: 70",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [32, 70, 31]\nTarget: 70<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number.70 is the largest number in the list, so we should try to use it in. We can use 70 as the result of a operation involving the other numbers. We can use subtraction32 - 31 = 1, and then dividing 70 by 1 gives 70. So, the expression is 70 / (32 - 31).\n</reasoning>\n<answer>\n\\boxed{70 / (32 - 31)}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          32,
+          70,
+          31
+        ],
+        70
+      ]
+    },
+    {
+      "question": "Numbers: [89, 98, 28]\nTarget: 19",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [89, 98, 28]\nTarget: 19<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 89, 98, and 28 that evaluates to 19. We's start by considering the operations operations +, -, *, and / We can try to combine the numbers in different ways to reach the target. One possible try is to use the and subtraction operations. If we try to subtract 89 from 98, we get 19. So, the expression is 98 - 89.\n</reasoning>\n<answer>\n\\boxed{98 - 89}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          89,
+          98,
+          28
+        ],
+        19
+      ]
+    },
+    {
+      "question": "Numbers: [44, 22, 28]\nTarget: 38",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [44, 22, 28]\nTarget: 38<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 44. If we subtract 22 from 44, we get 22. Now, we need to reach 38 using We can add 28 to 22 to get 50. Finally, we subtract 22 from 50 to get 38.\n</reasoning>\n<answer>\n\\boxed{44 - 22 + 28 - 22} (38)\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          44,
+          22,
+          28
+        ],
+        38
+      ]
+    },
+    {
+      "question": "Numbers: [22, 62, 88]\nTarget: 48",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [22, 62, 88]\nTarget: 48<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 88. If we subtract 88 from the target, we get 48 - 88 = -40. Now, we need to express -40 using the remaining numbers. We can use 62 - 22 = 40. So, the expression is 88 - (62 - 22).\n</reasoning>\n<answer>\n\\boxed{88-(62-22)}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          22,
+          62,
+          88
+        ],
+        48
+      ]
+    },
+    {
+      "question": "Numbers: [68, 55, 86]\nTarget: 73",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [68, 55, 86]\nTarget: 73<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 68, 55, and 86 that evaluates to 73. We's start by considering the operations operations +, -, *, and / We can try different combinations of numbers and operations to see if we can reach the target. One possible approach is to use with the largest number and try to reach it using the other numbers. We can also try using the smallest number to reach the target by adding operations.\n</reasoning>\n<answer>\n\\boxed{86 - 68 + 55}\n</answer<|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          68,
+          55,
+          86
+        ],
+        73
+      ]
+    },
+    {
+      "question": "Numbers: [24, 49, 34]\nTarget: 39",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [24, 49, 34]\nTarget: 39<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and properties - we can use addition, subtraction, multiplication, and division. We need to use each number exactly once.\n\nLet's try to use the largest number first, which is 49. We can subtract 49 from the target to get -10. Now we need to express -10 using the remaining numbers 24 and 34.\n</reasoning>\n\n<answer>\n\\boxed{24 - 34}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          24,
+          49,
+          34
+        ],
+        39
+      ]
+    },
+    {
+      "question": "Numbers: [61, 13, 33]\nTarget: 41",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [61, 13, 33]\nTarget: 41<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 61, 13, and 33 that evaluates to 41. We's start by considering the operations operations +, -, *, and / We can try different combinations of numbers and operations to reach the target. Let's try using the largest number first, which is 61. We can subtract 13 from 61 to get 48. Now, we can subtract 33 from 48 to get 41.\n</reasoning>\n<answer>\n\\boxed{-}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          61,
+          13,
+          33
+        ],
+        41
+      ]
+    },
+    {
+      "question": "Numbers: [72, 41, 67]\nTarget: 46",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [72, 41, 67]\nTarget: 46<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 72. If we subtract 67 from 72, we get 5, which is close enough to the target. Now, we need to reach 46 - 5 = 41. We can use 41 directly as 41. So, the expression is 72 - 67 + 41.\n</reasoning>\n<answer>\n\\boxed{72-67+41}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          72,
+          41,
+          67
+        ],
+        46
+      ]
+    },
+    {
+      "question": "Numbers: [1, 18, 51]\nTarget: 33",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [1, 18, 51]\nTarget: 33<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 1, 18, and 51 exactly once to create an arithmetic expression that evaluates to 33. Let's consider the operations operations +, -, *, and /.\n\nFirst, let's try to use the target number directly. but since can't have 33 in the expression.\n\nNext, let's try to use the numbers 18  and 51. We can use 51 - 18 = 33.\n</reasoning>\n<answer>\n\\boxed{33}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          1,
+          18,
+          51
+        ],
+        33
+      ]
+    },
+    {
+      "question": "Numbers: [44, 88, 25]\nTarget: 19",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [44, 88, 25]\nTarget: 19<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 44, 88, and 25 that evaluates to 19. We's start by considering the operations operations +, -, *, and /. We can try different combinations of numbers and operations to see if we can reach the target. \n\nOne's approach is to use the subtraction operation to reach the target. We can try subtracting the smallest number from the largest number and see if we can reach the target. </reasoning>\n<answer>\n\\boxed{88 - 44 - 25}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          44,
+          88,
+          25
+        ],
+        19
+      ]
+    },
+    {
+      "question": "Numbers: [44, 97, 22]\nTarget: 75",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [44, 97, 22]\nTarget: 75<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 44, 97, and 22 that evaluates to 75. We's start by considering the operations operations +, -, *, and / We can try different combinations of numbers and operations to see if we can reach the target. \n\nLet's try with subtraction:\n97 - 44 = 53\n53 + 22 = 75\n\nThis works\n</reasoning>\n<answer>\n\\boxed{97 - 44 + 22}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          44,
+          97,
+          22
+        ],
+        75
+      ]
+    },
+    {
+      "question": "Numbers: [79, 78, 42]\nTarget: 43",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [79, 78, 42]\nTarget: 43<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 79, 78, and 42 that evaluates to 43. We's start by considering the operations operations +, -, *, and / We can try different combinations of numbers and operations to see if we can reach the target.\n</reasoning>\n<answer>\n\\boxed{79 - 78 + 42}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          79,
+          78,
+          42
+        ],
+        43
+      ]
+    },
+    {
+      "question": "Numbers: [83, 72, 16]\nTarget: 27",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [83, 72, 16]\nTarget: 27<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and their order, keeping in mind that each number must be used exactly once.\n\nFirst, let's try the subtraction operation.\n83 - 72 = 11\n\nNow, we need to get 17 using the remaining numbers.\n11 + 16 = 27\n\nSo, the expression is:\n11 + 16\n\n</reasoning>\n\n<answer>\n\\boxed{17}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          83,
+          72,
+          16
+        ],
+        27
+      ]
+    },
+    {
+      "question": "Numbers: [83, 18, 75]\nTarget: 10",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [83, 18, 75]\nTarget: 10<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 83, 18, and 75 that evaluates to 10. We's use by numbers and operations to get 10.\n\nSubtracting with the largest number (83) and adding another number (75) might help us.\n\nSubtracting 83 gives 0. Adding 75 gives 75.\n\nAdding 18 to 75 gives 93.\n</reasoning>\n<answer>\n\\boxed{-83 + 75}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          83,
+          18,
+          75
+        ],
+        10
+      ]
+    },
+    {
+      "question": "Numbers: [74, 85, 51]\nTarget: 62",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [74, 85, 51]\nTarget: 62<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the operations and properties - we can use addition, subtraction, multiplication, and division. We need to use each number exactly once.\n\nLet's try to use the largest number first, which85. We can subtract 85 from 74 to get -11. Then, add -11 to 51 to get 62.\n</reasoning>\n\n<answer>\n\\boxed{(74 - 85) + 51}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          74,
+          85,
+          51
+        ],
+        62
+      ]
+    },
+    {
+      "question": "Numbers: [96, 44, 62]\nTarget: 10",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [96, 44, 62]\nTarget: 10<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's break down the problem:\n- We have three numbers: 96, 44, and 62.\n- The target number is 10.\n- We can use each number exactly once.\n- We operations are +, -, *, and /.\n\nLet's try the modulo operation:\n- 96 % 44 % 62\n</reasoning>\n<answer>\n\\boxed{96 % 44 % 62}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          96,
+          44,
+          62
+        ],
+        10
+      ]
+    },
+    {
+      "question": "Numbers: [21, 75, 93]\nTarget: 39",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [21, 75, 93]\nTarget: 39<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to find an arithmetic expression using the numbers 21, 75, and 93 that evaluates to 39. We's use by trying to operations and combinations.\n\nFirst 21 + 75 = 96, then 96 - 73 = 23, then 93 - 54 = 39.\n\nThe expression is 21 + 75 - 73.\n</reasoning>\n<answer>\n\\boxed{21 + 75 - 73}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          21,
+          75,
+          93
+        ],
+        39
+      ]
+    },
+    {
+      "question": "Numbers: [35, 52, 26]\nTarget: 61",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [35, 52, 26]\nTarget: 61<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's try different combinations of\nnumbers, operations, and parentheses.\n\nFirst, let's and subtraction:\n35 + 52 - 26 = 15 - 26 = -11\n\nNow, let's and subtraction:\n35 + 52 - 26 = 87 - 26 = 61\n\n!\n</reasoning>\n<answer>\n\\boxed{35 + 52 - 26}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          35,
+          52,
+          26
+        ],
+        61
+      ]
+    },
+    {
+      "question": "Numbers: [43, 49, 36]\nTarget: 56",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [43, 49, 36]\nTarget: 56<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 49. If we subtract 33 from 49, we get 16, which is close to the target. Now, we need to add 40 to reach 56. We can get 40 by subtracting 36 from 46. So, the expression will be 49 - 33.\n</reasoning>\n<answer>\n\\boxed{49 - 33 + 7}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          43,
+          49,
+          36
+        ],
+        56
+      ]
+    },
+    {
+      "question": "Numbers: [54, 17, 67]\nTarget: 4",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [54, 17, 67]\nTarget: 4<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the numbers numbers, 54, 17, and 67, to get the target number 4. Let's try to manipulate the numbers to get close to the target. We can start by using the largest number, 67, and subtract the54 from it. This gives us 13. Now, we need to get 4 from 13. We can subtract 9 from 13 to get 4.\n</reasoning>\n<answer>\n\\boxed{67 - 54}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          54,
+          17,
+          67
+        ],
+        4
+      ]
+    },
+    {
+      "question": "Numbers: [21, 39, 89]\nTarget: 71",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [21, 39, 89]\nTarget: 71<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's try different ways the numbers can be combined.\n\n1. Start with the largest number (89) and subtract the smallest number (21).\n   (89) - (21) = 68\n\n2. Now, use the result (68) and add the next number (39).\n   (68) + (39) = 71\n</reasoning>\n<answer>\n\\boxed{68 + 39}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          21,
+          39,
+          89
+        ],
+        71
+      ]
+    },
+    {
+      "question": "Numbers: [53, 3, 48]\nTarget: 37",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [53, 3, 48]\nTarget: 37<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 53, 3, and 48 to reach the target 37. Let's consider the possible operations:\n- Subtract 3 from 53: 53 - 3 = 50\n- Subtract 48 from 50: 50 - 48 = 2\n- Add 3 to  result: 2 + 3 = 37\n</reasoning>\n<answer>\n\\boxed{(53 - 3) - 48}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          53,
+          3,
+          48
+        ],
+        37
+      ]
+    },
+    {
+      "question": "Numbers: [57, 7, 4]\nTarget: 68",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [57, 7, 4]\nTarget: 68<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use the numbers 57, 7, and 4 exactly once to get the 8th digit. The target number is 68. The 8th digit of 68 is 8. We\ncan use the number 57 to get the 8th digit of 57, which is 7. We, however, need the 8th digit of 68, which is 8. We, therefore, need to use the number 8 directly.\n</reasoning>\n<answer>\n\\boxed{8}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          57,
+          7,
+          4
+        ],
+        68
+      ]
+    },
+    {
+      "question": "Numbers: [76, 81, 52]\nTarget: 57",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [76, 81, 52]\nTarget: 57<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers to reach the target number. Let's start by considering the largest number, 81. If we subtract 56 from 81, we get 25, which is close to the target. Now, we can use 52 to get the to the target. If we add 52 to 25, we get 57. Therefore, the expression is 81 - 76 + 52.\n</reasoning>\n<answer>\n\\boxed{81-76}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          76,
+          81,
+          52
+        ],
+        57
+      ]
+    },
+    {
+      "question": "Numbers: [84, 88, 53]\nTarget: 57",
+      "prompt_input": "<|startoftext|><|start_header_id|>user<|end_header_id|>\n\nUsing only the provided numbers, create an arithmetic expression that evaluates to exactly the provided target number. You may use the operations +, -, *, and / as needed, but each number must be used exactly once. Think step-by-step. After reasoning, provide only your final expression inside \\boxed{} tags without including an equals sign or the target number. For example: \\boxed{a + b * c}Respond in the following format:\n<reasoning>\nYour reasoning here\n</reasoning>\n<answer>\n\\boxed{...}\n</answer>\n\nNumbers: [84, 88, 53]\nTarget: 57<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n<reasoning>",
+      "generations": "\nWe need to use an arithmetic of the given numbers 84, 88, and 53 to get the target number 57. Let's consider the operations operations +, -, *, and /.\n\nFirst, let's try to use the largest number, 88, and the smallest number, 53. We can subtract 88 from 53 to get 57.\n\nSo, the expression is 53 - 88.\n</reasoning>\n<answer>\n\\boxed{53 - 88}\n</answer><|eot_id|>",
+      "ground_truth": [
+        [
+          84,
+          88,
+          53
+        ],
+        57
+      ]
+    }
+  ],
+  "metrics": {
+    "wall_time": 19.460858404636383,
+    "total_processed": 128
+  },
+  "model_path": "GSAI-ML/LLaDA-8B-Instruct",
+  "checkpoint_path": "/home/jyjang/d1/SFT/sft_outputs/llada-s1/checkpoint-2460/",
+  "gen_length": 128,
+  "diffusion_steps": 64,
+  "block_length": 32
+}

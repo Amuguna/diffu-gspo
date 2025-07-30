@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="/data0/devaansh",
+        default="./sft_outputs",
         help="Directory to save model checkpoints and logs",
     )
     parser.add_argument("--job_name", type=str, default="llada-s1", help="Job Name")

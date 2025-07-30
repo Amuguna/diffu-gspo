@@ -7,6 +7,8 @@ from peft import LoraConfig
 # Custom imports
 from diffu_grpo_trainer import DiffuGRPOTrainer
 from diffu_grpo_config import DiffuGRPOConfig
+from diffu_gspo_trainer import DiffuGSPOTrainer
+
 from reward_func import (
     xmlcount_reward_func,
     soft_format_reward_func,
@@ -97,14 +99,21 @@ def main(grpo_config, model_config):
         lora_dropout=model_config.lora_dropout,
     )
     # Initialize and run trainer
-    trainer = DiffuGRPOTrainer(
+    # trainer = DiffuGRPOTrainer(
+    #     args=grpo_config,
+    #     model=model,
+    #     peft_config=peft_config,
+    #     reward_funcs=reward_functions,
+    #     train_dataset=train_set,
+    # )
+    
+    trainer = DiffuGSPOTrainer(
         args=grpo_config,
         model=model,
         peft_config=peft_config,
         reward_funcs=reward_functions,
         train_dataset=train_set,
     )
-
     trainer.train()
 
 
